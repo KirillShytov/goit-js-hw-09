@@ -17,3 +17,27 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.in-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-item {
+  margin: 100px;
+}
+
+.list-link {
+  padding: 10px 30px;
+  background-color: #9a61a1;
+  border-radius: 19px;
+  font-size: 50px;
+  color: rgb(189, 174, 209);
+  letter-spacing: 0.3em;
+  transition: all 450ms;
+}
+
+.list-link:hover {
+  background-color: #165da0;
+}
